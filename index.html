@@ -1,19 +1,6 @@
 ---
-display_subtitle: true
-subtitle: sous-titre variable
+layout: default
+title: Home
 # front matter tells Jekyll to process Liquid
 ---
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Home</title>
-  </head>
-  <body>
-    <h1>{{ "Hello World!" | upcase }}</h1>
-    {% if page.display_subtitle %}
-      <h2>sous-titre fixe</h2>
-    {% endif %}
-    <h2>{{ page.subtitle }}</h2>
-  </body>
-</html>
+<h1>{{ "Hello World!" | downcase }}</h1>
