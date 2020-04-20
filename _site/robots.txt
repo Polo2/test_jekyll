@@ -1,1 +1,1 @@
-Sitemap: /sitemap.xml
+Sitemap: https://github.com/pages/Polo2/test_jekyll/sitemap.xml
